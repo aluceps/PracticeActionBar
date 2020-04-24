@@ -6,4 +6,5 @@
 
     <color name="colorStatusBar">#8fba</color>
     <color name="colorActionBar">#fba</color>
+    <color name="colorActionBarSecond">#dcd</color>
 </resources>
