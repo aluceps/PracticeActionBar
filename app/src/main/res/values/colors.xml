@@ -4,7 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="colorStatusBar">#8fba</color>
-    <color name="colorActionBar">#fba</color>
-    <color name="colorActionBarSecond">#dcd</color>
+    <color name="colorLimePrimary">#c0ca33</color>
+    <color name="colorLimePrimaryDark">#8c9900</color>
 </resources>

@@ -16,14 +16,14 @@
             <com.google.android.material.appbar.CollapsingToolbarLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:contentScrim="@color/colorActionBarSecond"
+                app:contentScrim="@color/colorLimePrimaryDark"
                 app:layout_scrollFlags="scroll|enterAlwaysCollapsed|exitUntilCollapsed"
                 >
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="280dp"
-                    android:background="#fba"
+                    android:background="@color/colorLimePrimary"
                     app:layout_collapseMode="parallax"
                     />
 
