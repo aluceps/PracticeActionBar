@@ -11,10 +11,12 @@
     </style>
 
     <style name="ActionBarStyle">
-        <item name="android:background">@color/colorLimePrimary</item>
+        <item name="android:background">@color/colorLimePrimaryDark</item>
     </style>
 
-    <style name="ExpandedTextStyle" parent="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" />
+    <style name="ExpandedTextStyle" parent="TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">#fff</item>
+    </style>
 
     <style name="CollapsedTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title" />
 </resources>

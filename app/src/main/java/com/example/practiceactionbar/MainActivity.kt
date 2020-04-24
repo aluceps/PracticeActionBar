@@ -26,9 +26,10 @@ class MainActivity : AppCompatActivity() {
 }
 
 fun Toolbar.addMarginStatusBarHeight() {
-    val id = resources.getIdentifier("status_bar_height", "dimen", "android")
-    if (id > 0) {
-        val height = resources.getDimensionPixelSize(id)
-        (layoutParams as ViewGroup.MarginLayoutParams).topMargin = height
+    resources.getIdentifier("status_bar_height", "dimen", "android").let { id ->
+        if (id > 0) {
+            val height = resources.getDimensionPixelSize(id)
+            (layoutParams as ViewGroup.MarginLayoutParams).topMargin = height
+        }
     }
 }
